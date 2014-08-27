@@ -1,0 +1,8 @@
+RewriteEngine on
+
+# Зададим поддержку юникода
+AddDefaultCharset UTF-8
+
+# Убираем index.php из урла
+RewriteCond $1 !^(index.php)
+RewriteRule ^(.*)$ /index.php?/$1 [L]

@@ -1,0 +1,9 @@
+.toparrow {
+    position: fixed;
+    z-index: 1000;
+    top: 550px;
+    left: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+    float: left;
+}

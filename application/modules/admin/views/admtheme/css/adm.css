@@ -1,0 +1,17 @@
+p#pages a{
+ color: #000000;
+}
+
+#pages{
+  margin-top: -3px;
+  line-height: 30px;
+}
+
+input[type="text"]{
+  width: 700px;
+}
+
+textarea{
+  width: 700px;
+  height: 100px;
+}

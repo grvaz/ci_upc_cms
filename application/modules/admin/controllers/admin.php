@@ -74,7 +74,7 @@ private static $head='';
 
     public function login()
 	{
-     if($this->input->post('login')=='admin' and $this->input->post('pass')=='dialog7'){
+     if($this->input->post('login')=='admin' and $this->input->post('pass')=='123'){
      $this->session->set_userdata('upc_adm','1');
      }
      redirect('/admin');

@@ -1,6 +1,6 @@
 RewriteEngine on
 
-# Зададим поддержку юникода
+# #Зададим поддержку юникода
 AddDefaultCharset UTF-8
 
 # Убираем index.php из урла

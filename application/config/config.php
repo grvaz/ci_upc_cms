@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://dialog-seversk.ru/';
+$config['base_url']	= 'http://domain.ru/';
 
 /*
 |--------------------------------------------------------------------------

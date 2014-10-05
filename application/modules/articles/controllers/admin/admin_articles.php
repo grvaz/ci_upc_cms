@@ -16,7 +16,8 @@ public $addtype='';
         $config['path']='./uploads/';
         $config['to_table']='page';
         $config['thumbs_opts']=array(
-        array('w'=>320, 'h'=>240, 'type'=>'height')
+        array('w'=>158, 'h'=>184, 'type'=>'crop'),
+        array('w'=>128, 'h'=>128, 'type'=>'crop')
         );
         // Заносим параметры
         $this->admin_imgs->set_params($config);
@@ -36,7 +37,7 @@ public $addtype='';
 
     public function url_permitted_methods()
 	{
-      return array('news','edit_cat','save_cat','del_cat','artlist','catlist','del','edit','save');
+      return array('news','edit_cat','save_cat','del_cat','artlist','catlist','del','edit','save','calendar_rebuild');
 	}
 
     public function news()
@@ -116,6 +117,12 @@ public $addtype='';
     // Приркрепляем / удаляем изображения
     $this->admin_imgs->save($id);
 
+    $this->articles_model->set_theme_of_day($this->input->post('day_theme'),$id);
+
+    $this->articles_model->set_chpu($id, $data['subtype'].'/'.$id);
+
+    $this->calendar_rebuild();
+
     redirect('/admin/articles/'.$data['subtype'].'/edit/'.$id);
 	}
 
@@ -150,6 +157,7 @@ public $addtype='';
     $cat_npnum=$this->articles_model->get_curr_cat_npnum($id);
     $data['curr_cat']=$cat_npnum['cat_id'];
     $data['np_num']=$cat_npnum['np_num'];
+    $data['day_theme']=$cat_npnum['day_theme'];
 
     if(!isset($data['editor'])){$data['editor']=1;}
 
@@ -177,6 +185,16 @@ public $addtype='';
      }
      redirect('/admin/articles/'.$this->uri->segment(5).'/'.$tofunc);
     }
+
+    public function calendar_rebuild()
+    {
+     $this->load->helper('file');
+    $tojs=$this->articles_model->get_calendar_days();
+    $js='glob_calendar_arr=new Array();'."\n".$tojs['news']."\n".$tojs['articles'];
+    write_file('./uploads/calendar.js', $js, 'w');
+    return false;
+    }
+
 }
 
 ?>

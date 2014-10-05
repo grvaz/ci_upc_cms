@@ -11,6 +11,9 @@
 <label>Редактор <input name="edit[editor]" type="checkbox"  onclick="switch_ed(this);" value="1" <?php if($editor)echo'checked'; ?> /></label>
 <br><br>
 
+<label>Тема дня <input name="day_theme" type="checkbox" value="1" <?php if($day_theme)echo'checked'; ?> /></label>
+<br><br>
+
 <select name="cat">
   <option value="0">--Категория--</option>
 <?php foreach($cats as $cat){ ?>

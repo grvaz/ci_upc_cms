@@ -11,7 +11,7 @@ public $page=array();
 
         $this->load->module('theme');
         
-        $this->load->model('articles_model');      
+        $this->load->model('articles_model');
 
 
     }
@@ -42,24 +42,29 @@ public $page=array();
 
     public function list_articles($opts)
 	{
-
+       $content='';
       //echo $opts['type'];
 
       $cont_data['type_txt']=$opts['type_txt'];
       $cont_data['type']=$opts['type'];
 
-      if(isset($opts['arc'])){
+            if(isset($opts['arc'])){
       $cont_data['articles']=$this->articles_model->get_arc_articles($opts['type'], $this->uri->segment(3));
-      }elseif(isset($opts['cat'])){
+            }elseif(isset($opts['cat'])){
       $cont_data['articles']=$this->articles_model->get_cat_articles($opts['type'], $this->uri->segment(3));
       $cont_data['one_curr_cat']=$this->articles_model->get_cat_data((int)$this->uri->segment(3));
       if($this->uri->segment(3)==0){$cont_data['one_curr_cat']=array('id'=>0, 'name'=>'Прочее');}
-           }else{
+            }elseif(isset($opts['all'])){
+      $tday=$this->theme_of_day();
+      $cont_data['articles']=$this->articles_model->get_last_articles(false,$tday['id']);
+      $content=$tday['content'];
+            }else{
       $cont_data['articles']=$this->articles_model->get_last_articles($opts['type']);
            }
-       $cont_data['pagenav']=$this->articles_model->pagenav->get_links();
 
-      $content=$this->load->view('theme/articles_news_view',$cont_data,true);
+      $cont_data['pagenav']=$this->articles_model->pagenav->get_links();
+
+      $content.=$this->load->view('theme/articles_news_view',$cont_data,true);
 
       $data=array();
 
@@ -91,6 +96,19 @@ public $page=array();
      $data['cats']=$this->articles_model->count_arts_in_cat($data['cats'], $this->uri->segment(1));
      return $this->load->view('theme/articles_cat_view',$data,true);
 
+	}
+
+    public function theme_of_day()
+	{
+	 $data=$this->articles_model->get_theme_of_day();
+
+     if(!empty($data[0])){
+     $array['content']=$this->load->view('theme/theme_of_day_view',array('page'=>$data[0][0], 'img'=>current($data[1])),true);
+     $array['id']=$data[0][0]['id'];
+     return $array;
+                         }
+
+     return array('content'=>'', 'id'=>0);
 	}
 }
 

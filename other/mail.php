@@ -1,10 +1,10 @@
 <?php   if ( ! defined('BASEPATH')) exit('Низзя!');
 //йцу
     global $config;
-    $config['smtp_username'] = 'qqq@yandex.ru';  //Смените на имя своего почтового ящика.
+    $config['smtp_username'] = 'qweqwe@yandex.ru';  //Смените на имя своего почтового ящика.
     $config['smtp_port']     = 25; // Порт работы. Не меняйте, если не уверены.
     $config['smtp_host']     = 'smtp.yandex.ru';  //сервер для отправки почты
-    $config['smtp_password'] = '111111';  //Измените пароль
+    $config['smtp_password'] = '111';  //Измените пароль
     $config['smtp_debug']   = false;  //Если Вы хотите видеть сообщения ошибок, укажите true вместо false
     $config['smtp_charset']  = 'UTF-8';  //кодировка сообщений. (или UTF-8, итд)
     $config['smtp_from']     = 'no-reply'; //Ваше имя - или имя Вашего сайта. Будет показывать при прочтении в поле "От кого"

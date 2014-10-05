@@ -28,6 +28,7 @@
         <ul class="tabs">
             <a href="/admin/page"><li <?php if($vmenu_=='page')echo'class="current"'; ?>>Страницы</li></a>
             <a href="/admin/articles"><li <?php if($vmenu_=='articles')echo'class="current"'; ?>>Новости / Статьи</li></a>
+            <a href="/admin/pdfarchive"><li <?php if($vmenu_=='pdfarchive')echo'class="current"'; ?>>Архив номеров</li></a>
             <a href="/admin/?logout"><li>Выйти</li></a>
         </ul>
 

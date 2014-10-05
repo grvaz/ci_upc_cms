@@ -6,7 +6,7 @@ class Common extends Base_controller {
 
     function __construct()
     {
-        parent::__construct();
+        MX_Controller::__construct();
 
     }
 
@@ -22,6 +22,8 @@ class Common extends Base_controller {
 
       echo 'ok';
 	}
+
+    
 }
 
 ?>

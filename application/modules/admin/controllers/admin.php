@@ -74,7 +74,7 @@ private static $head='';
 
     public function login()
 	{
-     if($this->input->post('login')=='admin' and $this->input->post('pass')=='123'){
+     if($this->input->post('login')=='admin' and $this->input->post('pass')=='111'){
      $this->session->set_userdata('upc_adm','1');
      }
      redirect('/admin');
@@ -117,6 +117,11 @@ $data['above_page']=$array['above_page'];
      }else{
     self::$head=$html;
          }
+    }
+
+    public final function get_html_head()
+    {
+     return self::$head;
     }
 }
 

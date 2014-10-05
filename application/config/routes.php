@@ -37,8 +37,10 @@
 | in the URL cannot be matched to a valid route.
 |
 */
-$route['default_controller'] = "front/go_to_module/page/index/none=none";
-//$route['admin/(:any)/(:any)'] = "admin/rout/$1/$2";
+//$route['default_controller'] = "front/go_to_module/page/index/none=none";
+
+$route['default_controller'] = "front/go_to_module/articles/list_articles/type=all&all=yes&type_txt=новости и статьи";
+
 $route['admin/(:any)/(:any)/(:any)'] = "admin/index/$1/$2/$3";
 $route['admin/(:any)'] = "admin/index/$1/index/index";
 $route['admin'] = "admin/index/page/index/index";
@@ -56,6 +58,10 @@ $route['articles/cat/(:num)'] = "front/go_to_module/articles/list_articles/type=
 
 $route['news'] = "front/go_to_module/articles/list_articles/type=news&type_txt=новости";
 $route['articles'] = "front/go_to_module/articles/list_articles/type=articles&type_txt=статьи";
+
+$route['pdfarchive'] = "front/go_to_module/pdfarchive/list_pdfs/none=none";
+
+$route['site_search'] = "front/go_to_module/search/site_search/none=none";
 
 $route['ajax/(:any)/(:any)'] = "front/go_to_module/$1/$2/none=none/true";
 

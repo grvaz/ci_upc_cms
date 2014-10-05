@@ -547,8 +547,9 @@ ul - меню
     padding: 6px 8px 8px 8px;
 }
 
-.navmenu ul li:hover {
+.navmenu ul li:hover, .navmenu ul li:active {
     background: #006699;
+	height: 28px;
 }
 
 .navmenu ul li ul li:hover {

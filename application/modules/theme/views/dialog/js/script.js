@@ -1,9 +1,21 @@
 //* Create by FIJN fijn@bk.ru йцу */
 
+inArray = Array.prototype.indexOf ?
+    function (arr, val) {
+        return arr.indexOf(val) != -1
+    } :
+    function (arr, val) {
+        var i = arr.length
+        while (i--) {
+            if (arr[i] === val) return true
+        }
+        return false
+    }
+
 $(document).ready(function(){
   $("#datepicker").datepicker ({
     onSelect : function(dateText, inst) {
-       $("#datepicker").datepicker("destroy");
+       //$("#datepicker").datepicker("destroy");
        location.href='/'+curr_article_subtype+'/archive/'+dateText;
      },
      beforeShowDay: function(d) {
@@ -16,7 +28,7 @@ $(document).ready(function(){
        var fulldate=day+'.'+month+'.'+d.getFullYear();
         //alert(fulldate);
 
-       $.ajax({
+       /*$.ajax({
   type: "post",
   async: false,
   url: "/ajax/articles/ajax_calendar",
@@ -24,9 +36,13 @@ $(document).ready(function(){
   success: function(data){
      calendar_act_day=data;
   }
-} );
+} );*/
 
-if(calendar_act_day=='0'){
+//alert(glob_calendar_arr[0]);
+
+calendar_act_day=inArray(glob_calendar_arr[calend_article_subtype], fulldate);
+
+if(!calendar_act_day){
    return [false,"","Нет материалов за этот день"];
    }else{
     return [true, "","Доступны материалы"];
@@ -57,3 +73,5 @@ function mail_send(){
 } );
 alert('Ваше сообщение отправлено');
 }
+
+

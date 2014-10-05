@@ -22,7 +22,7 @@
             <!--fotokartochka start-->
             <div class="uniphoto">
             <?php if(isset($articles[1][$row['id']]['id'])){ ?>
-            <a href="<?= img_src('big', $articles[1][$row['id']]) ?>" class="fancybox" rel="gal"><img src="<?= img_src('thumb1', $articles[1][$row['id']]) ?>" alt=""></a>
+            <a href="<?= img_src('big', $articles[1][$row['id']]) ?>" class="fancybox" rel="gal"><img src="<?= img_src('thumb2', $articles[1][$row['id']]) ?>" alt=""></a>
 <?php } ?>
 </div>
             <!--fotokartochka end-->
@@ -36,7 +36,7 @@
             <div class="uniright">
                 <!--ssilki start-->
                 <div class="unilink">
-                    <a href="/<?= $type ?>/<?= $row['id'] ?>">Читать далее</a>
+                    <a href="/<?= $row['subtype'] ?>/<?= $row['id'] ?>">Читать далее</a>
 
                 </div>
                 <!--ssilki end-->

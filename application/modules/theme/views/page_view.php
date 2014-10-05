@@ -16,7 +16,7 @@
             <!--fotokartochka start-->
             <div class="uniphoto">
             <?php if(!empty($main_img)){ ?>
-            <a href="<?= img_src('big', $main_img) ?>" class="fancybox" rel="gal"><img src="<?= img_src('thumb1', $main_img) ?>" alt=""></a>
+            <a href="<?= img_src('big', $main_img) ?>" class="fancybox" rel="gal"><img src="<?= img_src('big', $main_img) ?>" alt=""></a>
             <?php } ?>
             </div>
             <!--fotokartochka end-->
@@ -38,7 +38,7 @@
             <div class="unitext">
            <?php foreach($img_list as $img){ ?>
                 <!--fotokartochka start-->
-                <div class="uniphoto-mini"><a href="<?= img_src('big', $img) ?>" class="fancybox" rel="gal"><img src="<?= img_src('thumb1', $img) ?>" alt=""></a></div>
+                <div class="uniphoto-mini"><a href="<?= img_src('big', $img) ?>" class="fancybox" rel="gal"><img src="<?= img_src('thumb3', $img) ?>" alt=""></a></div>
                 <!--fotokartochka end-->
 
            <?php } ?>

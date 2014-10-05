@@ -6,6 +6,7 @@
     <script src="<?= THEME_PATH ?>js/jquery-ui.min.js"></script>
     <script src="<?= THEME_PATH ?>js/jquery.ui.datepicker-ru.js"></script>
     <script src="<?= THEME_PATH ?>js/script.js"></script>
+    
 
     <link rel="stylesheet" type="text/css" href="<?= THEME_PATH ?>css/style.css" media="all"/>
 

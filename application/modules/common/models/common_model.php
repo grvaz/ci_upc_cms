@@ -52,7 +52,10 @@ class Common_model extends CI_Model {
       return $array;
 	}
 
-
+    public function set_chpu($id, $chpu)
+	{
+	  $this->db_ins_upd('page', 'id', array('id'=>$id, 'chpu'=>$chpu));
+	}
 }
 
 ?>

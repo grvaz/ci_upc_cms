@@ -1,0 +1,562 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201409 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dialog-seversk.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1963                
+POS_TIME 2632                
+POS_VISITOR 10273               
+POS_DAY 13573               
+POS_DOMAIN 3503                
+POS_LOGIN 3736                
+POS_ROBOT 3891                
+POS_WORMS 4333                
+POS_EMAILSENDER 4464                
+POS_EMAILRECEIVER 4607                
+POS_SESSION 14368               
+POS_SIDER 14576               
+POS_FILETYPES 4742                
+POS_OS 4992                
+POS_BROWSER 5130                
+POS_SCREENSIZE 5943                
+POS_UNKNOWNREFERER 6017                
+POS_UNKNOWNREFERERBROWSER 6203                
+POS_ORIGIN 6335                
+POS_SEREFERRALS 6479                
+POS_PAGEREFS 6636                
+POS_SEARCHWORDS 7178                
+POS_KEYWORDS 8058                
+POS_MISC 2296                
+POS_ERRORS 8454                
+POS_CLUSTER 3592                
+POS_SIDER_404 8572                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141001000541 1 0 36065805857
+FirstTime 20140901042141
+LastTime 20140930231623
+LastUpdate 20141002000310 1 0 0 0 0
+TotalVisits 163                 
+TotalUnique 79                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 79                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 53 4088121 14 24 834216
+1 10 10 259449 48 72 2102754
+2 5 53 3168491 19 24 1002692
+3 7 7 181410 12 47 11891496
+4 16 16 413286 14 27 2486522
+5 8 8 186993 13 22 3049566
+6 13 35 1626197 18 22 1464304
+7 21 22 497812 21 37 4788888
+8 344 509 6438970 49 58 2361523
+9 102 717 20863997 21 43 502290
+10 28 206 9341762 57 66 660801
+11 104 540 23801979 66 94 955102
+12 60 441 16975680 76 101 1268361
+13 21 135 4812221 34 53 5201309
+14 17 134 7179382 32 87 6362773
+15 34 243 10808361 18 28 545076
+16 19 130 2633656 42 376 18005198
+17 28 185 10450663 25 77 1599258
+18 71 825 31218349 41 103 2315461
+19 27 328 6757162 31 64 5123554
+20 9 21 815691 31 66 2141843
+21 5 35 1640343 34 54 1232270
+22 18 240 10296504 36 62 4158143
+23 15 65 3444186 33 74 2666756
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 992 4958 177900665
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+yandex 846 57994192 20140930235607 0
+googlebot 188 22309778 20140930235626 0
+[\s_+:,\.\;\/\\-]bot 13 237710 20140910090048 0
+bot[\s_+:,\.\;\/\\-] 10 82497 20140926200324 0
+no_user_agent 5 74364 20140922101457 0
+libwww 5 3216 20140930115002 0
+ng\/1\. 4 53328 20140921142444 0
+surveybot 2 12700 20140923010824 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 703 5573396 0 0
+png 765 13947739 0 0
+pdf 14 2333926 0 0
+2014 36 157229 0 0
+php 3 27933 0 0
+html 304 4101962 0 0
+js 1339 59236040 0 0
+jpg 1118 90846227 0 0
+Unknown 635 1544013 0 0
+gif 41 132200 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+macosx 59
+winme 2
+linuxandroid 53
+winxp 1939
+j2me 26
+win2000 3
+Unknown 4
+winvista 782
+win2008 2090
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 45
+msie6.0 21
+chrome37.0.2062.124 38
+firefox28.0 1
+firefox3.6 2
+android 53
+firefox26.0 1
+firefox2.0.0.1 1
+chrome36.0.1944.0 58
+chrome31.0.1650.57 27
+chrome36.0.1985.125 76
+chrome31.0.1650.63 65
+firefox24.0 44
+opera9.80 166
+firefox31.0 1682
+msie8.0 43
+chrome30.0.1599.13014 1
+firefox16.0 30
+chrome37.0.2062.120 437
+firefox23.0 1
+chrome33.0.1750.146 1
+msie9.0 88
+chrome37.0.2062.103 468
+chrome30.0.1599.101 63
+Unknown 1
+firefox27.0 1
+chrome37.0.2062.94 26
+firefox32.0 439
+firefox17.0 26
+chrome37.0.2062.102 21
+firefox21.0 2
+firefox3.6.16 1
+msie5.5 1
+firefox30.0 1
+firefox3.0.5 1
+netscape4.79 1
+chrome36.0.1985.143 645
+mozilla 4
+chrome35.0.1916.153 379
+chrome33.0.1750.117 1
+firefox22.0 1
+chrome32.0.1700.76 12
+msie10.0 24
+firefox3.5.9 2
+firefox19.0 1
+firefox3.6.13 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+acHTTP_component_(AppControls.com) 20140924150630
+Mozilla/4.0_(compatible;_Synapse) 20140930085436
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+acHTTP_component_(AppControls.com) 20140924150630
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 180 182
+From1 3 3
+From2 42 42
+From3 26 149
+From4 741 4582
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 42 42
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://dialog.zdato.ru 9 68
+http://gdzz.url.ph 5 5
+http://dialog.zdato.ru/pdfarchive 4 48
+http://dialog.zdato.ru/articles 3 6
+http://dialog.zdato.ru/news 3 14
+http://superdjut.ru/route 1 1
+http://mawords.com/dialog-seversk.ru 1 1
+http://dialog.zdato.ru/application/modules/theme/views/dialog/css/style.css 0 2
+http://dialog.zdato.ru/application/modules/theme/views/dialog/css/jquery-ui.css 0 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba 4
+dialog-seversk.ru 2
+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0+%d0%bd%d0%be%d0%bc%d0%b5%d1%80+5 2
+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3+%d0%b2+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba%d0%b5 1
+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba+%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d0%b9+%d0%b2%d1%8b%d0%bf%d1%83%d1%81%d0%ba 1
+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba+%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d0%b9+%d0%b2%d1%8b%d0%bf%d1%83%d1%81%d0%ba 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3 9
+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba 6
+%d0%b3%d0%b0%d0%b7%d0%b5%d1%82%d0%b0 4
+dialog-seversk.ru 2
+%d0%bd%d0%be%d0%bc%d0%b5%d1%80 2
+%d0%bf%d0%be%d1%81%d0%bb%d0%b5%d0%b4%d0%bd%d0%b8%d0%b9 2
+%d0%b2%d1%8b%d0%bf%d1%83%d1%81%d0%ba 2
+5 2
+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba%d0%b5 1
+%d0%b2 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 62 37726
+206 27 1479951
+404 319 434694
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 47
+/uploads/thumb2_427_pdfarchive_1.jpg 2 -
+/bitrix/themes/.default/images/auth_pict.gif 2 -
+/uploads/big_432_pdfarchive_10.jpg 4 -
+/sitemap.xml 1 -
+/robots.txt 98 -
+/uploads/big_431_pdfarchive_9.jpg 3 -
+/admin.php 39 -
+/users/forget/ 2 -
+/forum/ 1 -
+/forums/ 1 -
+/templates/system/css/system.css 2 -
+/modules/system/system.base.css 2 -
+/uploads/thumb2_432_pdfarchive_10.jpg 4 -
+/wp-admin/ 2 -
+/wp-admin/admin-ajax.php 2 -
+/netcat/admin/skins/default/img/logo.png 2 -
+/uploads/big_430_pdfarchive_8.jpg 3 -
+/modules/system/system.css 2 -
+/netcat/admin/ 2 -
+/xmlrpc.php 1 https://www.google.com/search
+/typo3/index.php 1 -
+/user/login/ 2 -
+/wp-content/ 2 -
+/uploads/thumb2_430_pdfarchive_8.jpg 3 -
+/bitrix/themes/.default/adminstyles.css 2 -
+/styles/skins/mac/design/css/style.css 2 -
+/users/registrate/ 2 -
+/node/ 2 -
+/user/ 4 -
+/uploads/thumb2_431_pdfarchive_9.jpg 2 -
+/bitrix/admin/index.php 1 -
+/installed 2 -
+/uploads/big_427_pdfarchive_1.jpg 4 -
+/administrator/index.php 23 -
+/wp-admin/images/wordpress-logo.png 2 -
+/ozlqpcyfv.html 1 -
+/netcat/admin/skins/default/css/style.css 2 -
+/administrator/ 24 -
+/bitrix/js/main/core/core.css 2 -
+/media/system/js/mootools.js 2 -
+/images/cms/admin/mac/common/butterfly.png 2 -
+/wp-admin/css/wp-admin.css 2 -
+/bitrix/admin/ 2 -
+/wp-login.php 47 -
+/news/548 2 http://dialog-seversk.ru/
+/user/password/ 2 -
+/netcat/admin/skins/default/css/login.css 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 79
+88.204.59.160 418 1202 23094886 20140918180546
+212.107.230.235 85 438 16863436 20140922185014
+95.170.115.65 74 769 15075619 20140924172931
+88.204.53.75 69 683 33573125 20140925134334
+83.172.26.123 58 235 8181095 20140924170621
+37.57.231.123 47 47 1210799 20140902172951
+188.225.33.150 30 30 775500 20140930041935
+79.136.190.230 17 281 7126459 20140915184434
+178.250.241.130 13 14 291540 20140916075123
+88.204.118.143 13 63 3392648 20140930231623
+83.172.33.180 10 72 2625153 20140926103339
+37.57.231.111 1 1 26027 20140929042855
+212.107.233.118 6 56 4604345 20140924115019
+93.78.87.197 2 2 52012 20140916031425
+46.188.127.61 1 1 25663 20140902142623
+95.25.221.210 1 12 607304 20140925180729
+38.127.167.46 2 2 52020 20140909160946
+162.244.33.8 1 1 25634 20140908064214
+213.136.64.63 1 1 25982 20140917004045
+62.210.83.159 1 1 6344 20140917002450
+79.104.198.10 1 1 25910 20140924150630
+213.87.121.247 1 4 38167 20140917194522
+79.136.164.240 1 26 1568053 20140930110717
+109.165.103.67 1 1 25956 20140920205653
+109.184.124.206 2 2 52026 20140924151802
+91.105.164.132 5 53 3392778 20140915110107
+92.54.105.17 1 1 25963 20140916184657
+37.115.201.70 1 1 26021 20140918085919
+176.14.149.91 1 22 770386 20140925191157
+109.194.229.163 1 1 25949 20140923012949
+185.26.180.73 2 26 1445748 20140915224259
+94.244.143.49 2 2 12648 20140909051658
+136.169.10.10 1 1 25994 20140915005357
+46.173.72.171 5 5 130219 20140929014714
+217.26.166.157 1 1 25948 20140930184507
+79.136.178.192 4 53 2848857 20140916151056
+217.118.79.28 7 35 1646158 20140915110032
+88.204.50.32 9 45 2920288 20140919180838
+194.186.219.132 1 31 2146308 20140930140938
+37.57.231.122 1 1 25743 20140902013713
+109.184.88.241 6 6 156096 20140912163620
+85.174.192.22 1 26 798098 20140915123713
+5.248.87.10 1 1 25942 20140922005057
+85.26.164.238 1 1 6343 20140920112154
+37.21.188.161 1 1 26014 20140928222442
+212.107.230.208 4 48 3300611 20140916120818
+5.61.33.119 3 3 18819 20140904061236
+128.73.58.63 1 20 806899 20140925152358
+212.107.231.91 10 67 3761217 20140916151515
+78.139.205.168 3 47 4738330 20140916173826
+212.129.58.15 1 1 26023 20140929134041
+37.1.35.188 1 1 6272 20140928205329
+216.163.188.238 1 1 25966 20140913152042
+62.210.122.123 1 1 6284 20140909192326
+91.105.69.9 1 1 25915 20140930085436
+185.53.168.136 1 1 6282 20140920141306
+88.204.119.109 4 38 1652114 20140928220143
+95.191.59.240 3 38 2546657 20140915125403
+82.118.19.111 2 2 1458 20140917190957
+78.140.9.4 9 44 1674390 20140919082552
+84.240.9.6 1 1 25960 20140922154951
+88.204.55.177 8 73 5953872 20140917183737
+79.136.194.206 5 40 1655522 20140914123246
+83.149.35.220 1 1 25917 20140911185127
+199.30.228.147 1 1 6257 20140901192749
+46.73.178.251 1 24 1523220 20140916022906
+213.183.101.48 2 33 1592699 20140916140909
+74.141.200.242 1 1 25979 20140928153225
+78.140.36.145 1 26 1568049 20140928220757
+95.27.13.141 1 23 1354924 20140924062041
+195.218.182.62 1 26 1567988 20140926023600
+79.141.163.25 1 1 26023 20140928105133
+194.58.40.78 1 1 6268 20140922060419
+95.174.212.105 3 46 3926576 20140925005707
+109.173.22.47 1 26 1567997 20140925152358
+194.187.31.46 1 1 26015 20140930163937
+95.28.175.193 1 12 608888 20140925180728
+79.136.181.187 7 50 2012862 20140928120210
+62.75.222.228 1 1 1208 20140908203305
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20140901 451 1308 30109382 8
+20140902 95 685 18869582 13
+20140903 26 161 5403161 11
+20140904 11 78 846187 8
+20140905 1 1 25628 1
+20140906 3 25 1557153 2
+20140907 1 1 25636 1
+20140908 83 341 9102333 5
+20140909 21 99 342213 6
+20140910 1 1 25952 1
+20140911 2 2 51873 2
+20140912 11 57 4220328 8
+20140913 3 28 1619959 3
+20140914 7 67 3249472 3
+20140915 39 491 18629453 9
+20140916 42 316 19728388 11
+20140917 14 82 6051775 6
+20140918 4 39 1649659 3
+20140919 21 142 6283040 5
+20140920 5 7 70881 5
+20140921 6 126 5557522 2
+20140922 11 77 3267280 6
+20140923 52 154 4972226 4
+20140924 15 154 9352183 9
+20140925 10 165 9881993 8
+20140926 12 99 4219097 3
+20140927 1 1 25956 1
+20140928 17 119 5343277 8
+20140929 8 8 208233 4
+20140930 19 124 7210843 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+5mn-15mn 8
+0s-30s 120
+15mn-30mn 4
+30s-2mn 14
+2mn-5mn 7
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 82
+/ajax/articles/ajax_calendar 315 85801 0 0
+/ 279 4030058 141 116
+/pdfarchive 67 300568 3 11
+/news 59 325268 7 17
+/articles 58 299989 2 5
+/articles/archive/24.08.2014 22 98978 0 0
+/admin/articles 16 26123 0 0
+/admin 14 16631 1 1
+/admin/pdfarchive 11 14646 3 0
+/uploads/pdfarchive/10.pdf 9 1500381 0 0
+/admin/pdfarchive/index/edit/8 2 3698 0 0
+/news/530 1 21915 0 0
+/admin/pdfarchive/index/edit/9/ 1 1921 0 0
+/admin/pdfarchive/index/edit/1/ 3 5828 0 0
+/admin/articles/articles/artlist 6 9966 0 0
+/news/520 5 45444 0 1
+/admin/login.php 1 729 1 0
+/admin/pdfarchive/index/edit/10 2 3704 0 0
+/admin/index.php 1 1208 1 1
+/admin/articles/articles/edit/526/ 1 3572 0 0
+/admin/articles/news/edit/548 1 2163 0 0
+/admin/page/ed/edit/9/0 2 4163 0 0
+/admin/articles/news/edit/520 2 8136 0 0
+/page/11 1 3848 0 0
+/admin/page/ed/edit/0/0 1 1969 0 0
+/articles/cat/0 1 3927 0 0
+/news/546 4 35841 0 0
+/articles/cat/2 3 14060 0 0
+/admin/articles/news/edit/548/ 1 2163 0 0
+/admin/articles/news/edit/519/ 1 4299 0 0
+/admin/articles/articles/edit/529 1 4874 0 0
+/articles/534 1 21993 0 0
+/admin/articles/news/edit/546 2 6850 0 0
+/admin/articles/news/edit/533/ 2 7355 0 0
+/articles/535 2 26285 0 0
+/main 1 3858 0 0
+/admin/page/ed/edit/0/10 1 1973 0 0
+/admin/articles/news/edit/530/ 2 7830 0 0
+/articles/529 5 51755 0 1
+/news/548 1 4047 0 0
+/admin/ 1 729 0 1
+/articles/526 2 26976 1 1
+/admin/articles/articles/edit/535/ 1 3494 0 0
+/admin/articles/articles/edit/534 1 4053 0 0
+/uploads/pdfarchive/8.pdf 1 166709 0 1
+/news/cat/4 1 4498 0 1
+/admin/articles/articles/calendar_rebuild 1 575 0 0
+/admin/articles/articles/edit/529/ 1 4742 0 0
+/articles/archive/22.08.2014 1 4205 0 0
+/uploads/pdfarchive/1.pdf 1 166709 0 0
+/admin/page/ed/edit/11/0 1 1998 0 0
+/admin/articles/news/news 2 3254 0 0
+/admin/articles/articles/edit/535 1 3622 0 0
+/admin/articles/articles/edit/534/ 1 3926 0 0
+/admin/articles/articles/edit/526 1 3698 0 0
+/admin/articles/news/edit/0/ 1 2052 0 0
+/site_search 5 19051 0 0
+/articles/archive/23.08.2014 3 12766 0 0
+/news/archive/23.08.2014 1 4250 0 0
+/page/10 1 3831 0 0
+/articles/cat/1 1 4286 0 0
+/admin/pdfarchive/index/edit/8/ 1 1921 0 0
+/news/533 3 32178 0 1
+/uploads/pdfarchive/9.pdf 3 500127 0 0
+/news/519 4 24724 1 1
+/admin/articles/news/edit/530 3 11873 0 0
+/admin/pdfarchive/index/edit/10/ 3 5779 0 0
+/admin/articles/category/catlist 2 2800 0 0
+/admin/articles/news/edit/533 1 3741 0 0
+/admin/pdfarchive/index/edit/1 3 5663 0 0
+/news/cat/0 2 8857 2 2
+/admin/pdfarchive/index/edit/9 2 3697 0 0
+/news/cat/3 2 9439 0 0
+/admin/articles/news/edit/546/ 2 6723 0 0
+/admin/articles/news/edit/520/ 2 7866 0 0
+/admin/pdfarchive/index/index 4 6020 0 0
+/index.php 1 25996 0 1
+/news/archive/01.09.2014 6 24262 0 0
+/news/archive/28.08.2014 3 12768 0 1
+/admin/page 6 9412 0 0
+/ajax/common/ajax_feedback 1 272 0 0
+/admin/pdfarchive/index/edit/0/ 1 1704 0 0
+END_SIDER

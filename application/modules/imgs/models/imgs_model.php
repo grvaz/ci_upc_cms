@@ -25,7 +25,16 @@ class Imgs_model extends Common_model {
      }
     }
 
+     public function imgs_to_table($result_array, $to_table)
+     {
+        $img_arr=array();
 
+        foreach($result_array as $row){
+        $img_arr[$row['id']]=$this->get_imgs($to_table, $row['id']);
+        }
+
+        return array('rows'=>$result_array, 'imgs'=>$img_arr);
+     }
 }
 
 ?>

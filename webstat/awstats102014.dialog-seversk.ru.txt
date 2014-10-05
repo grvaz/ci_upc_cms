@@ -1,0 +1,300 @@
+AWSTATS DATA FILE 6.95 (build 1.943)
+# If you remove this file, all statistics for date 201410 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.dialog-seversk.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1963                
+POS_TIME 2642                
+POS_VISITOR 7084                
+POS_DAY 7797                
+POS_DOMAIN 3312                
+POS_LOGIN 3542                
+POS_ROBOT 3697                
+POS_WORMS 4096                
+POS_EMAILSENDER 4227                
+POS_EMAILRECEIVER 4370                
+POS_SESSION 7954                
+POS_SIDER 8142                
+POS_FILETYPES 4505                
+POS_OS 4702                
+POS_BROWSER 4827                
+POS_SCREENSIZE 5080                
+POS_UNKNOWNREFERER 5154                
+POS_UNKNOWNREFERERBROWSER 5416                
+POS_ORIGIN 5522                
+POS_SEREFERRALS 5657                
+POS_PAGEREFS 5812                
+POS_SEARCHWORDS 6039                
+POS_KEYWORDS 6273                
+POS_MISC 2306                
+POS_ERRORS 6416                
+POS_CLUSTER 3398                
+POS_SIDER_404 6504                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20141004234653 125 30441 57328544523
+FirstTime 20141001043744
+LastTime 20141004174517
+LastUpdate 20141005000310 125 0 125 0 0
+TotalVisits 19                  
+TotalUnique 15                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 82 4054898 10 14 1037429
+1 0 0 0 7 8 35344
+2 0 0 0 4 5 15774
+3 0 0 0 3 3 13246
+4 2 2 51904 3 11 53675
+5 2 2 51908 9 16 76145
+6 0 0 0 11 16 178978
+7 9 58 6279239 1 5 11524
+8 1 1 26009 0 5 0
+9 1 26 1568030 0 3 0
+10 1 26 1567987 3 8 4005
+11 0 0 0 72 72 409376
+12 5 5 130227 1 1 1955
+13 0 0 0 5 15 37122
+14 1 26 1568044 3 4 13622
+15 0 0 0 4 7 15102
+16 5 40 2557526 6 23 631064
+17 1 1 25913 13 60 2464785
+18 4 42 4066267 1 19 166709
+19 1 26 1567981 5 12 30271
+20 2 28 1568830 8 9 40743
+21 1 1 6351 1 2 5914
+22 0 0 0 1 3 6037
+23 0 0 0 3 3 14666
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 45 366 25091114
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+yandex 180 4916482 20141004170538 0
+googlebot 49 206421 20141003062316 0
+bot[\s_+:,\.\;\/\\-] 2 12601 20141003192631 0
+[\s_+:,\.\;\/\\-]bot 1 6258 20141003021634 0
+surveybot 1 6353 20141004234653 0
+favicon 1 25959 20141001135630 0
+baiduspider 1 5881 20141002202419 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 46 532128 0 0
+png 52 1383010 0 0
+pdf 3 500127 0 0
+html 26 399308 0 0
+js 77 5494438 0 0
+jpg 138 16689864 0 0
+Unknown 16 65799 0 0
+gif 8 26440 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+macosx 2
+linuxandroid 1
+winxp 56
+win2003 2
+winnt 1
+Unknown 33
+winvista 64
+win2008 207
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 13
+msie6.0 4
+msie8.0 1
+firefox32.0 104
+chrome19.1.1084.5409 42
+mozilla 27
+firefox16.0 4
+chrome36.0.1944.0 2
+chrome37.0.2062.122 122
+chrome37.0.2062.103 26
+msie5.5 1
+Unknown 2
+opera9.80 30
+chrome30.0.0.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WebIndex 20141003163716
+Mozilla/4.0_(compatible;_Synapse) 20141004174517
+Opera/9.80_(Android;_Opera_Mini/7.5.35644/35.4851;_U;_ru)_Presto/2.8.119_Version/11.10 20141004005057
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WebIndex 20141003163716
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 14 15
+From1 0 0
+From2 8 8
+From3 5 5
+From4 18 338
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+yandex 8 8
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://ajkfg.gdzz.url.ph/blogs/reshebnik-po-anglijskomu-9-klass-evans.html 5 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+%d0%b4%d0%b8%d0%b0%d0%bb%d0%be%d0%b3 1
+%d1%81%d0%b5%d0%b2%d0%b5%d1%80%d1%81%d0%ba 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 54 83531
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 10
+/users/admin 1 http://dialog-seversk.ru/users/admin
+/blogs 1 http://dialog-seversk.ru/blogs
+/wp-admin/admin-ajax.php 1 -
+/uploads/big_432_pdfarchive_10.jpg 1 -
+/robots.txt 24 -
+/administrator/ 6 -
+/user/ 1 -
+/admin.php 8 -
+/administrator/index.php 2 -
+/wp-login.php 9 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 16
+95.174.192.12 9 58 6279239 20141004075728
+95.174.218.147 6 50 1987926 20141002002406
+46.173.72.171 5 5 130227 20141003120159
+188.225.33.150 4 4 103812 20141004055741
+37.21.148.82 4 42 4066267 20141002180824
+188.234.166.189 3 38 2546683 20141003163715
+88.204.53.75 3 54 3136811 20141001201459
+82.145.220.23 2 30 1621576 20141004005056
+92.242.35.54 2 2 10843 20141003163716
+194.187.31.46 2 2 52022 20141002003551
+80.66.94.43 1 26 1568044 20141001142754
+74.141.200.242 1 1 6351 20141002211528
+109.124.36.202 1 26 1567987 20141001104123
+79.136.236.114 1 26 1568030 20141002094222
+91.105.69.9 1 1 25913 20141004174517
+109.188.127.26 0 1 419383 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 4
+20141001 7 108 6324801 5
+20141002 14 121 7680541 6
+20141003 11 47 3133090 4
+20141004 13 90 7952682 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+2mn-5mn 1
+30s-2mn 4
+0s-30s 12
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 26 399308 19 13
+/pdfarchive 13 54748 0 5
+/uploads/pdfarchive/10.pdf 3 500127 0 0
+/news 1 5140 0 0
+/articles 1 4901 0 1
+/admin/pdfarchive 1 1010 0 0
+END_SIDER

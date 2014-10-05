@@ -11,7 +11,7 @@
 
 
 <a href="/<?= $row['subtype'] ?>/<?= $row['id'] ?>" target="_blank"><?= $row['header'] ?></a>
-[<a href="/admin/articles/<?= $row['subtype'] ?>/edit/<?= $row['id'] ?>/?&came_from=<?= req_uri_q(true) ?>">Править</a> | <a href="javascript:void(0)" onclick="if(confirm('Удалить?')){location.href='/admin/articles/index/del/<?= $row['subtype'] ?>/?&id=<?= $row['id'] ?>';}else{return false;}">Удалить</a>]
+<span class="kvadroskobki">[<a href="/admin/articles/<?= $row['subtype'] ?>/edit/<?= $row['id'] ?>/?&came_from=<?= req_uri_q(true) ?>">Править</a> | <a href="javascript:void(0)" onclick="if(confirm('Удалить?')){location.href='/admin/articles/index/del/<?= $row['subtype'] ?>/?&id=<?= $row['id'] ?>';}else{return false;}">Удалить</a>]</span>
 <br>
   <?php } ?>
 
